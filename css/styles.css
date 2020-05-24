@@ -1,0 +1,103 @@
+/* color palette:
+Rosewood: #4f000bff;
+Claret: #720026ff;
+Brick red: #ce4257ff;
+Coral: #ff7f51ff;
+Sandy brown: #ff9b54ff; */
+
+
+/* Global Styles
+-------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #720026ff;
+    background: #ce4257ff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header, footer {
+    padding: 3% 6%;
+}
+
+section {
+    width: 85%;
+    margin: 0 auto;
+    padding: 3%
+}
+
+p {
+    padding: 10px 0 12px 0;
+}
+
+a {
+    color: #4f000bff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    width: 300px;
+}
+
+/* Profile
+-------------------------------*/
+header {
+    background: #ce4257ff;
+    color: #4f000bff;
+}
+
+header h1, header h2 {
+    padding-top: 12px;
+}
+
+/* Projects
+-------------------------------*/
+.projects {
+    background: #ff9b54ff;
+}
+
+.projects .btn {
+    background: #4f000bff;
+    color: #ff9b54ff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.projects .btn:hover {
+    background: rgba(79, 0, 11, 75%);
+}
+
+.projects h3 {
+    padding: 8px 0;
+    font-size: 22px;
+}
+
+/* Work Experience
+-------------------------------*/
+.work-experience {
+    background: #ff7f51ff;
+}
+
+/* Education
+-------------------------------*/
+.education {
+    background: #ff9b54ff;
+}
+
+/* Contact Info
+-------------------------------*/
+footer {
+    background: #ce4257ff;
+    color: #4f000bff;
+}
+
+footer ul {
+    margin: 14px 28px;
+}
